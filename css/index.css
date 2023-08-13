@@ -1,0 +1,23 @@
+.center {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    filter: brightness(100%);
+}
+
+#clock-container {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color: white;
+}
+
+#bg {
+    background-image: url('https://www.dropbox.com/scl/fi/jb8a1x810h16r3j8fpedk/gif.gif?rlkey=h714e9yobj4yy7xcubowxy1fn&dl=1');
+    filter: brightness(50%);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
