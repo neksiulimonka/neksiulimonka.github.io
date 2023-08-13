@@ -4,7 +4,7 @@ function showTime() {
     const clockObject = document.getElementById('clock-container');
 
     if (difference <= 0) {
-        clockObject.innerText = 'Koniec!';
+        clockObject.innerText = 'Już jest!';
         return;
     }
 
