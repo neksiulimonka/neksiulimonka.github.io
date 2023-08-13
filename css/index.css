@@ -14,7 +14,7 @@
 
 #bg {
     background-image: url('https://www.dropbox.com/scl/fi/jb8a1x810h16r3j8fpedk/gif.gif?rlkey=h714e9yobj4yy7xcubowxy1fn&dl=1');
-    background-size: contain;
+    background-size: cover;
     filter: brightness(50%);
     position: absolute;
     top: 0px;
