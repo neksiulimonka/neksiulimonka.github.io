@@ -3,7 +3,6 @@
     left: 50%;
     position: absolute;
     transform: translateX(-50%) translateY(-50%);
-    filter: brightness(100%);
 }
 
 #clock-container {
@@ -21,4 +20,9 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
+}
+
+#text-limonka {
+    font-family: 'Dancing Script', cursive;
+    color: white;
 }
