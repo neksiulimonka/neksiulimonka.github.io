@@ -1,6 +1,6 @@
 function showTime() {
     const endDate = 1692712800;
-    const difference = endDate - Date.now()/1000;
+    const difference = Date.now()/1000 - endDate;
     const clockObject = document.getElementById('clock-container');
 
     if (difference <= 0) {
