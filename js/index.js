@@ -1,10 +1,10 @@
 function showTime() {
-    const endDate = 1692712800;
-    const difference = Date.now()/1000 - endDate;
+    const endDate = 1714773600;
+    const difference = endDate - Date.now()/1000;
     const clockObject = document.getElementById('clock-container');
 
     if (difference <= 0) {
-        clockObject.innerHTML = '<a href="https://youtube.com/playlist?list=PLETbi5VcKSbLldrpKApWPn6lJRtsMt-NN">Już jest!</a>';
+        clockObject.innerHTML = '<p>Już jest!</p>';
         return;
     }
 
